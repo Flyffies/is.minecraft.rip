@@ -1,0 +1,193 @@
+h1, h2 {
+    font-weight: 300;
+    font-size: 3em;
+    margin: 0.67em 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+
+/* ==========================================================================
+ Grid 
+ ========================================================================== */
+.container {
+    width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.span2 {
+    width: 140px;
+    margin: 0 .6em;
+    
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+
+/* ==========================================================================
+ Main
+ ========================================================================== */
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+::-moz-selection {
+    background: #00AFED;
+    text-shadow: none;
+}
+
+::selection {
+    background: #00AFED;
+    text-shadow: none;
+}
+
+body {
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.4;
+    background-color: #333;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    color: #FFF;
+}
+
+a {
+    color: #999;
+    text-decoration: none;
+    border-color: #AAA;
+    border-bottom: 1px solid #4D4D4D; /* rgba( 255, 255, 255, .2 ); */
+    -webkit-transition: border .2s ease;
+    transition: border .2s ease;
+}
+
+    a:focus {
+        outline: thin dotted;
+    }
+
+    a:active,
+    a:hover {
+        outline: 0;
+    }
+
+    a:hover {
+        border-bottom: 1px solid #8D8D8D; /* rgba( 255, 255, 255, .5 ); */
+    }
+
+.wrapper {
+    padding-top: 2em;
+}
+
+.cute {
+    border: 1px solid black;
+    max-height: 280px;
+}
+
+.service {
+    width: 140px;
+    height: 100px;
+    border: 3px solid #A4D3EE;
+    color: #A4D3EE;
+    padding: 1.2em 0;
+    margin: 0 0 .5em 0;
+    border-radius: 10%;
+}
+
+    .service .name {
+        color: #FFF;
+    }
+
+    .service .status {
+        font-weight: 300;
+    }
+
+    #login.down .status {
+        /*margin: 0.1em 0;*/
+        line-height: 1;
+    }
+
+    .up .service {
+        border-color: #4d9839;
+        color: #4d9839;
+    }
+
+    .problem .service {
+        border-color: #FF9900;
+        color: #FF9900;
+    }
+
+    .down .service {
+        border-color: #C91E0D;
+        color: #C91E0D;
+    }
+
+.uptime {
+    color: #999;
+}
+
+.uptime-hint {
+    border-bottom: 1px dotted #999;
+    cursor: help;
+    display: inline;
+}
+
+.footer {
+    margin: 7em 0 2em 0;
+    font-size: .8em;
+}
+
+.footer-line {
+    margin: 1em 0;
+}
+
+/* ==========================================================================
+ Media Queries
+ ========================================================================== */
+@media (max-width: 960px) {
+    .container {
+        width: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    .span2 {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 760px) {
+    .container > h1.text-center {
+        font-size: 2em;
+    }
+    
+    .footer {
+        margin-top: 2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .span2 {
+        margin: 0 10px;
+    }
+    
+    .container > h1.text-center {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-height: 710px) {
+    .wrapper {
+        padding-top: 0;
+    }
+}
+
+/* ==========================================================================
+ Helper classes
+ ========================================================================== */
+
+.text-center {
+    text-align: center;
+}
