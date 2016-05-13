@@ -6,4 +6,4 @@ Original code from [xPaw](https://github.com/xPaw/mcstatus).
 
 Cat images from [The Cat API](http://thecatapi.com/).
 
-Login credentials kindly provided by [Hudeler)(https://twitter.com/Hudeler).
+Login credentials kindly provided by [Hudeler](https://twitter.com/Hudeler).
