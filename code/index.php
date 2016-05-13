@@ -94,7 +94,7 @@ if ($login && $session && $skins && $website && $realms) {
 					<div class="footer-line">
 						<div class="text-center">
 							Last update: <span id="last-update">00:00:00 CEST</span>  | 
-							Made by <a href="//manuelgu.eu">manuelgu</a>  |  
+							Created by <a href="//manuelgu.eu">manuelgu</a>, idea by <a href="//twitter.com/TheDestruc7i0n">@TheDestruc7i0n</a>  |  
 							Source code on <a href="//github.com/is-minecraft-rip/is.minecraft.rip">GitHub</a>
 						</div>
 					</div>
